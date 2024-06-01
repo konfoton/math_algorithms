@@ -1,0 +1,74 @@
+Comparing C to Python in terms of time
+
+two matrixes 100 x 100
+C time: 
+time in seconds: 0.0057260990142822266
+Python time: 
+time in seconds: 0.03883504867553711
+
+two matrixes 200 x 200
+C time: 
+time in seconds: 0.029384136199951172
+Python time: 
+time in seconds: 0.3244600296020508
+
+two matrixes 300 x 300
+C time: 
+time in seconds: 0.09102511405944824
+Python time: 
+time in seconds: 1.1426670551300049
+
+two matrixes 400 x 400
+C time: 
+time in seconds: 0.19588780403137207
+Python time: 
+time in seconds: 2.8101890087127686
+
+two matrixes 500 x 500
+C time: 
+time in seconds: 0.3660590648651123
+Python time: 
+time in seconds: 5.501666069030762
+
+two matrixes 600 x 600
+C time: 
+time in seconds: 0.5796830654144287
+Python time: 
+time in seconds: 9.799973249435425
+
+two matrixes 700 x 700
+C time: 
+time in seconds: 0.8841500282287598
+Python time: 
+time in seconds: 15.889202356338501
+
+two matrixes 800 x 800
+C time: 
+time in seconds: 1.2981560230255127
+Python time: 
+time in seconds: 24.123220205307007
+
+two matrixes 900 x 900
+C time: 
+time in seconds: 1.9237217903137207
+Python time: 
+time in seconds: 34.368348836898804
+
+two matrixes 1000 x 1000
+C time: 
+time in seconds: 2.554995059967041
+Python time: 
+time in seconds: 48.014758825302124
+
+two matrixes 1100 x 1100
+C time: 
+time in seconds: 3.3681867122650146
+Python time: 
+time in seconds: 63.87078499794006
+
+two matrixes 1200 x 1200
+C time: 
+time in seconds: 4.29706597328186
+Python time: 
+time in seconds: 83.30309200286865
+
