@@ -26,6 +26,13 @@ def c_to_python(a):
     temp = [[a.contents.array[i][j] for j in range(a.contents.col)] for i in range(a.contents.row)]
     return temp
 
+def matc(a, b):
+    a_c = python_to_c(a)
+    b_c = python_to_c(b)
+    ret_c = lib.matrixmul(a_c, b_c)
+    ret = c_to_python(ret_c)
+    return ret
+
 '''Testing...'''
 if __name__ == "__main__":
     test1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
@@ -36,8 +43,8 @@ if __name__ == "__main__":
 
     test2_c = python_to_c(test2)
 
-result_c = lib.matrixmul(test1_c, test2_c)
+    result_c = lib.matrixmul(test1_c, test2_c)
 
-result = c_to_python(result_c)
+    result = c_to_python(result_c)
 
-print(result)
+    print(result)
