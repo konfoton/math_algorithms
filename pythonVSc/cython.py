@@ -27,14 +27,14 @@ def c_to_python(a):
     return temp
 
 '''Testing...'''
+if __name__ == "__main__":
+    test1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
-test1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+    test2 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
-test2 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+    test1_c = python_to_c(test1)
 
-test1_c = python_to_c(test1)
-
-test2_c = python_to_c(test2)
+    test2_c = python_to_c(test2)
 
 result_c = lib.matrixmul(test1_c, test2_c)
 
